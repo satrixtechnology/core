@@ -2,7 +2,6 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
 	<menu>
-		<add id="Satrix_Core::menu" module="Satrix_Core" resource="Satrix_Core::menu" sortOrder="10" translate="title" title="Satrix"/>
-        <add id="Satrix_Core::stx_configuration" title="Configuration" module="Satrix_Core" sortOrder="10" parent="Satrix_Core::menu" action="adminhtml/system_config/edit/section/strix" resource="Satrix_Core::stx_configuration"/>
+		<add id="Satrix_Core::menu" module="Satrix_Core" resource="Satrix_Core::menu" sortOrder="10" translate="title" title="Satrix" dependsOnConfig="satrixtech/general/enable_core"/>
 	</menu>
 </config>
