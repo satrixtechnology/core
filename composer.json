@@ -1,0 +1,23 @@
+{
+    "name": "satrix/module-core",
+    "description": "Satrix Core Extension for Magento 2",
+    "type": "magento2-module",
+	"version": "0.0.1",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Satrix",
+            "email": "info@satrixtech.com"
+        }
+    ],
+	"require": {
+    },    
+	"autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Satrix\\Core\\": ""
+        }
+    }
+}
