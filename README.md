@@ -1,4 +1,4 @@
-Satrix Core for Magento 2
+# Satrix Core for Magento 2
 
 How to install & upgrade Satrix_Core
 1. Install via composer (recommend)
@@ -39,5 +39,3 @@ Go to Magento root folder and run upgrade command line to install Satrix_Core:
 
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
-
-# core
