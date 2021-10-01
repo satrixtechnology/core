@@ -39,9 +39,3 @@ Go to Magento root folder and run upgrade command line to install Satrix_Core:
 
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
-<<<<<<< HEAD
-
-# core
-# Satrix_Core
-=======
->>>>>>> 6dd913ad30ec4fd42cdc8de1738520430b351d1a
